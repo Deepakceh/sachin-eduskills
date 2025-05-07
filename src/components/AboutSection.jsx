@@ -20,8 +20,8 @@ export default function AboutPage() {
         {/* Left Image */}
         <div>
           <Image
-            src="/assets/images/about/about-ngo.jpg"
-            alt="Sachin Eduskills Foundation"
+            src="/assets/images/about.jpg"
+            alt="Sachin Eduskills"
             width={600}
             height={400}
             className="rounded-2xl shadow-md w-full h-auto object-cover"
