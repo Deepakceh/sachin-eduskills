@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { toast } from 'sonner';
@@ -45,7 +44,7 @@ export default function ContactSection() {
           >
             {({ errors, touched }) => (
               <Form className="mt-10 space-y-8">
-                {['name', 'email', 'mobile', 'message'].map((field, idx) => (
+                {['name', 'email', 'mobile', 'message'].map((field) => (
                   <div key={field} className="relative">
                     <Field
                       name={field}

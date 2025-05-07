@@ -28,12 +28,12 @@ export default function BannerSection() {
       description: 'After completing training, students take official assessments. Those who pass receive recognized government certifications.',
     },
     {
-      src: '/assets/images/banners/banner4.avif',
+      src: '/assets/images/banners/banner4',
       title: 'Placement Support That Matters',
       description: 'We connect certified candidates with real job opportunities, internships, and partner companies for meaningful employment.',
     },
     {
-      src: '/assets/images/banners/banner5.avif',
+      src: '/assets/images/banners/banner5',
       title: 'Success Stories Begin Here',
       description: 'Our alumni are working across industries, proving that the right guidance can turn ambition into achievement.',
     }

@@ -5,28 +5,28 @@ import { motion } from 'framer-motion';
 
 const steps = [
   {
-    title: 'Chess Fundamentals',
-    desc: 'Master the rules, piece movements, board setup, and core tactics like pins and forks.',
+    title: 'Step 1: Registration',
+    desc: 'Enroll in your desired course by completing a simple registration process.',
   },
   {
-    title: 'Opening Theory',
-    desc: 'Study classical and modern openings, traps, and principles to control the game early.',
+    title: 'Step 2: Orientation & Class Begin',
+    desc: 'Attend orientation and start your instructor-led classes as per the course plan.',
   },
   {
-    title: 'Middlegame Strategy',
-    desc: 'Learn how to build plans, handle tension, coordinate pieces, and attack the king.',
+    title: 'Step 3: Practical Training',
+    desc: 'Engage in hands-on sessions, labs, and real-world projects to gain practical skills.',
   },
   {
-    title: 'Endgame Technique',
-    desc: 'Master key endgame themes like opposition, pawn promotion, and simple checkmates.',
+    title: 'Step 4: Internal Assessment',
+    desc: 'Appear for assignments, quizzes, and tests to assess your learning progress.',
   },
   {
-    title: 'Tactical Vision',
-    desc: 'Sharpen your mind with puzzles, tactics training, and real-game combinations.',
+    title: 'Step 5: Final Exam & Certification',
+    desc: 'Clear the final assessment to earn a recognized certificate for your skills.',
   },
   {
-    title: 'Tournament Preparation',
-    desc: 'Build confidence with timed games, psychological tips, and practical tournament formats.',
+    title: 'Step 6: Placement Assistance',
+    desc: 'Get placement support including resume building, mock interviews, and job referrals.',
   },
 ];
 
@@ -39,12 +39,12 @@ export default function CurriculumSection() {
         transition={{ duration: 0.6 }}
         className="max-w-6xl mx-auto text-center"
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-gray-800 border-b-4 border-yellow-500 inline-block pb-2">
-          Our Curriculum: From Beginner to Advance
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-gray-800 border-b-4 border-sky-600 inline-block pb-2">
+          Step-by-Step Learning Journey
         </h2>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         {steps.map((step, index) => (
           <motion.div
             key={index}
@@ -52,9 +52,9 @@ export default function CurriculumSection() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
-            className="flex items-start gap-4 bg-white hover:shadow-md transition-shadow duration-300 p-2 rounded-md"
+            className="flex items-start gap-4 bg-white hover:shadow-md transition-shadow duration-300 p-4 rounded-lg border border-gray-100"
           >
-            <div className="bg-yellow-500 text-white font-bold text-lg w-10 h-10 rounded-full flex items-center justify-center shadow-md">
+            <div className="bg-sky-600 text-white font-bold text-lg w-10 h-10 rounded-full flex items-center justify-center shadow">
               {index + 1}
             </div>
             <div>
