@@ -30,6 +30,7 @@ export default function Navbar() {
       <nav className={`sticky top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-white'}`}>
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           {/* Brand Name */}
+          
           <Link href="/" className="text-2xl font-bold text-sky-600">
             Sachin Eduskills
           </Link>
