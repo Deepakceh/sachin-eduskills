@@ -1,6 +1,6 @@
 import AboutSection from '../../components/AboutSection'
 // import CurriculumSection from '../../components/CurriculumSection'
-import HeroSection from '../../components/HeroSection'
+// import HeroSection from '../../components/HeroSection'
 export default function page() {
   return (
     <>
