@@ -1,6 +1,7 @@
 'use client';
 
 import { Mail, Phone, MapPin } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -42,10 +43,11 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-2">Useful Links</h3>
           <ul className="space-y-2 text-gray-300">
-            <li><a href="/" className="hover:text-sky-400 transition">Home</a></li>
-            <li><a href="/about" className="hover:text-sky-400 transition">About</a></li>
-            <li><a href="/#projects" className="hover:text-sky-400 transition">Projects</a></li>
-            <li><a href="/contact" className="hover:text-sky-400 transition">Contact</a></li>
+            <li><Link href="/" className="hover:text-sky-400 transition">Home</Link></li>
+            <li><Link href="/about" className="hover:text-sky-400 transition">About</Link></li>
+            <li><Link href="/projects" className="hover:text-sky-400 transition">Projects</Link></li>
+            <li><Link href="/courses" className="hover:text-sky-400 transition">Courses</Link></li>
+            <li><Link href="/contact" className="hover:text-sky-400 transition">Contact</Link></li>
           </ul>
         </div>
       </div>

@@ -67,9 +67,9 @@ export default function Navbar() {
           {/* Desktop Links */}
           <div className="hidden md:flex gap-8 text-sm font-medium">
             <Link href="/" className={linkClass('/')}>Home</Link>
-            <Link href="/#projects" className={linkClass('/#projects')}>Projects</Link>
-            <Link href="/courses" className={linkClass('/courses')}>Courses</Link>
             <Link href="/about" className={linkClass('/about')}>About</Link>
+            <Link href="/projects" className={linkClass('/projects')}>Projects</Link>
+            <Link href="/courses" className={linkClass('/courses')}>Courses</Link>
           </div>
 
           {/* Contact Button */}
@@ -114,9 +114,9 @@ export default function Navbar() {
               </button>
               <div className="flex flex-col gap-6 text-gray-800 text-base font-medium">
                 <Link href="/" onClick={() => setMenuOpen(false)} className={linkClass('/')}>Home</Link>
-                <Link href="/#projects" onClick={() => setMenuOpen(false)} className={linkClass('/#projects')}>Projects</Link>
-                <Link href="/courses" onClick={() => setMenuOpen(false)} className={linkClass('/courses')}>Courses</Link>
                 <Link href="/about" onClick={() => setMenuOpen(false)} className={linkClass('/about')}>About</Link>
+                <Link href="/projects" onClick={() => setMenuOpen(false)} className={linkClass('/projects')}>Projects</Link>
+                <Link href="/courses" onClick={() => setMenuOpen(false)} className={linkClass('/courses')}>Courses</Link>
                 <Link
                   href="/contact"
                   onClick={() => setMenuOpen(false)}
