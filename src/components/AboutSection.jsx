@@ -50,7 +50,7 @@ export default function AboutPage() {
         >
           <h2 className="text-2xl font-semibold text-gray-800">Who We Are</h2>
           <p className="text-gray-700 leading-relaxed">
-            At Sachin Eduskills, we believe education is a right — not a privilege.
+            At <span className='text-sky-600'>Sachin Eduskills,</span> we believe education is a right — not a privilege.
             Through structured training and government-sponsored programs, we uplift students from underserved communities and provide them with tools for life.
           </p>
           <p className="text-gray-700 leading-relaxed">
