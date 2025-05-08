@@ -1,24 +1,36 @@
 'use client';
 
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 export default function AboutPage() {
   return (
     <section className="max-w-7xl mx-auto px-4 py-16">
       {/* Top Heading */}
-      <div className="text-center mb-16">
+      <motion.div
+        className="text-center mb-16"
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <h1 className="text-4xl md:text-5xl font-bold text-sky-600">
-          About Sachin Eduskills
+          Sachin Eduskills
         </h1>
         <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-          We are a government-supported NGO offering free skill-based education, helping underprivileged youth unlock real career opportunities.
+          We are a government-supported NGO offering free skill-based education,
+          helping underprivileged youth unlock real career opportunities.
         </p>
-      </div>
+      </motion.div>
 
       {/* Main Grid */}
       <div className="grid md:grid-cols-2 gap-12 items-center">
         {/* Left Image */}
-        <div>
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
           <Image
             src="/assets/images/about.jpg"
             alt="Sachin Eduskills"
@@ -26,32 +38,53 @@ export default function AboutPage() {
             height={400}
             className="rounded-2xl shadow-md w-full h-auto object-cover"
           />
-        </div>
+        </motion.div>
 
         {/* Right Content */}
-        <div className="space-y-6">
+        <motion.div
+          className="space-y-6"
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
           <h2 className="text-2xl font-semibold text-gray-800">Who We Are</h2>
           <p className="text-gray-700 leading-relaxed">
-            At Sachin Eduskills Foundation, we believe education is a right — not a privilege. Through structured training and government-sponsored programs, we uplift students from underserved communities and provide them with tools for life.
+            At Sachin Eduskills, we believe education is a right — not a privilege.
+            Through structured training and government-sponsored programs, we uplift students from underserved communities and provide them with tools for life.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            From foundational skills to career placement, our focus is holistic and impactful. With expert guidance, assessments, and real-world exposure, our students don't just learn — they transform.
+            From foundational skills to career placement, our focus is holistic and impactful.
+            With expert guidance, assessments, and real-world exposure, our students don't just learn — they transform.
           </p>
-        </div>
+        </motion.div>
       </div>
 
       {/* Mission & Why Us */}
       <div className="mt-20 grid md:grid-cols-2 gap-12">
         {/* Mission Block */}
-        <div className="border-l-4 border-sky-600 pl-6">
+        <motion.div
+          className="border-l-4 border-sky-600 pl-6"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
           <h3 className="text-xl font-semibold text-gray-800 mb-2">Our Mission</h3>
           <p className="text-gray-700 leading-relaxed">
-            To empower India's youth through quality education, ensure equal access to opportunity, and build a nation where skills lead to stability.
+            To empower India's youth through quality education, ensure equal access to opportunity,
+            and build a nation where skills lead to stability.
           </p>
-        </div>
+        </motion.div>
 
         {/* Why Choose Us Block */}
-        <div className="border-l-4 border-sky-600 pl-6">
+        <motion.div
+          className="border-l-4 border-sky-600 pl-6"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
           <h3 className="text-xl font-semibold text-gray-800 mb-2">Why Choose Us?</h3>
           <ul className="list-disc pl-4 space-y-2 text-gray-700">
             <li>Completely Free, Government-Recognized Programs</li>
@@ -60,7 +93,7 @@ export default function AboutPage() {
             <li>Dedicated Placement Support & Partner Companies</li>
             <li>Real Career Outcomes — Not Just Training</li>
           </ul>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

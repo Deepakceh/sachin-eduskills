@@ -4,6 +4,7 @@ const stats = [
   { label: "Youth Trained", value: "5000+" },
   { label: "Job Placements", value: "3200+" },
   { label: "Govt. Programs", value: "12+" },
+  { label: "Courses", value: "50+" },
   { label: "States Covered", value: "18+" },
   { label: "Certified Trainers", value: "35+" },
   { label: "Placement Rate", value: "80%" },
