@@ -33,12 +33,7 @@ export default function Navbar() {
 
           <Link href="/" className="flex items-center gap-1 group">
             <div className="relative flex items-center justify-center w-12 h-12">
-              <Image
-                src="/assets/images/logo.jpeg"
-                alt="Sachin Eduskills Logo"
-                fill
-                className="object-contain"
-              />
+              <Image src="/assets/images/logo.jpeg" alt="Sachin Eduskills Logo" fill className="object-contain" />
             </div>
             <div className="relative pl-3">
               <div className="absolute top-0 left-0 w-full h-full border-l-4 border-blue-500 rounded-sm -z-10 blur-sm"></div>
