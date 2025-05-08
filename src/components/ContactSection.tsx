@@ -115,7 +115,7 @@ export default function ContactSection() {
               <Icon className="mx-auto mb-4" size={28} />
               <h4 className="font-bold text-lg mb-2">{title}</h4>
               <p className="text-sm mb-2 whitespace-pre-line">{text}</p>
-              <a href={link} className="text-red-400 text-sm hover:underline" target="_blank" rel="noreferrer">
+              <a href={link} className="text-sky-400 text-sm hover:underline" target="_blank" rel="noreferrer">
                 {label}
               </a>
             </div>
