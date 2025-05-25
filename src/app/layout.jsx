@@ -12,11 +12,11 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Sachin Eduskills Pvt. Ltd. | Govt. Certified Free Skill Training NGO",
+  title: "Sachin Eduskills Pvt. Ltd.",
   description:
-    "Join Sachin Eduskills Pvt. Ltd., a recognized NGO offering free government-certified skill development training to empower youth across India. Enroll in digital, vocational, and professional courses today.",
+    "Join Sachin Eduskills Pvt. Ltd., a recognized company offering free skill-based education, helping underprivileged youth unlock real career opportunities. Enroll in digital, vocational, and professional courses today.",
   keywords: [
-    "NGO skill training",
+    "skill training",
     "free government courses",
     "skill development India",
     "vocational training",
@@ -28,6 +28,8 @@ export const metadata = {
     "pmkvy",
     "ddugky",
     "upnulm",
+    "sepl",
+    "upnulm",
   ],
   authors: [{ name: "Sachin Eduskills Pvt. Ltd." }],
   creator: "Sachin Eduskills Pvt. Ltd.",
@@ -35,7 +37,7 @@ export const metadata = {
   openGraph: {
     title: "Free Govt. Certified Training | Sachin Eduskills Pvt. Ltd.",
     description:
-      "Sachin Eduskills Pvt. Ltd. is an NGO providing government-certified, free training courses to support education and employment across India.",
+      "Join Sachin Eduskills Pvt. Ltd., a recognized company offering free skill-based education, helping underprivileged youth unlock real career opportunities. Enroll in digital, vocational, and professional courses today.",
     url: "https://sachineduskills.com",
     siteName: "Sachin Eduskills",
     locale: "en_IN",
