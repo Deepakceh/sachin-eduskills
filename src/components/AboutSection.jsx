@@ -49,9 +49,12 @@ export default function AboutPage() {
           viewport={{ once: true }}
         >
           <h2 className="text-2xl font-semibold text-gray-800">Who We Are</h2>
-          <p className="text-gray-700 leading-relaxed">
+          {/* <p className="text-gray-700 leading-relaxed">
             At <span className='text-sky-600'>Sachin Eduskills,</span> we believe education is a right — not a privilege.
             Through structured training and government-sponsored programs, we uplift students from underserved communities and provide them with tools for life.
+          </p> */}
+          <p className="text-gray-700 leading-relaxed">
+            <span className='text-sky-600'>SEPL</span> is a Private Limited Company working with Central Govt & many State Govts , offering free skill-based education, helping underprivileged youth unlock real career opportunities.
           </p>
           <p className="text-gray-700 leading-relaxed">
             From foundational skills to career placement, our focus is holistic and impactful.
